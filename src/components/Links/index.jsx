@@ -19,11 +19,13 @@ class Links extends React.Component {
         <ul className="links__list">
           <li className="links__list-item">
             <a
-              href={`https://www.twitter.com/${links.twitter}`}
+              href={`https://www.researchgate.net/profile/${links.researchgate}`}
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="icon-twitter" />
+              <i style={{ verticalAlign: 'text-top' }}>
+                <FaResearchgate />
+              </i>
             </a>
           </li>
           <li className="links__list-item">
@@ -35,21 +37,16 @@ class Links extends React.Component {
               <i className="icon-github" />
             </a>
           </li>
+
           <li className="links__list-item">
             <a
-              href={`https://www.researchgate.net/profile/${
-                links.researchgate
-              }`}
+              href={`https://www.twitter.com/${links.twitter}`}
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i style={{ verticalAlign: 'text-top' }}>
-                <FaResearchgate />
-              </i>
+              <i className="icon-twitter" />
             </a>
           </li>
-        </ul>
-        <ul className="links__list">
           <li className="links__list-item">
             <a href={`mailto:${links.email}`}>
               <i className="icon-mail" />

@@ -6,8 +6,8 @@ module.exports = {
     url: 'https://theTechie.netlify.com',
     title: "theTechie's",
     subtitle:
-      'Javascript, ML, NLP enthusiast; always learning something new; frontend engineer @projectplace.',
-    copyright: '© theTechie. All rights reserved.',
+      'Javascript, ML, Graph Processing; Always learning something new; Frontend Engineer @projectplace.',
+    copyright: '© theTechie. all rights reserved.',
     disqusShortname: '',
     menu: [
       {
