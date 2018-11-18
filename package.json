@@ -1,7 +1,7 @@
 {
   "version": "3.0.0",
-  "name": "gatsby-v2-starter-lumen",
-  "description": "Simple starter for Gatsby",
+  "name": "my-blog",
+  "description": "theTechie's blog",
   "main": "n/a",
   "scripts": {
     "develop": "gatsby develop",
@@ -13,15 +13,13 @@
     "format": "prettier --write './*.js' 'src/**/*.js' 'src/**/*.jsx'",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
-  "repository": "git+https://github.com/alxshelepenok/gatsby-starter-lumen.git",
+  "repository": "https://github.com/theTechie/my-blog.git",
   "keywords": [
     "gatsby",
     "blog",
-    "react",
-    "theme",
-    "starter"
+    "react"
   ],
-  "author": "Alexander Shelepenok <alxshelepenok@gmail.com>",
+  "author": "Gagan M <gagan.blr@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "bluebird": "^3.5.1",
@@ -49,7 +47,8 @@
     "react": "^16.5.2",
     "react-disqus-comments": "^1.2.0",
     "react-dom": "^16.5.2",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "react-icons": "^3.2.2"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",
