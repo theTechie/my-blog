@@ -23,9 +23,14 @@ class CategoriesRoute extends React.Component {
                   <div className="categories">
                     <ul className="categories__list">
                       {categories.map(category => (
-                        <li key={category.fieldValue} className="categories__list-item">
+                        <li
+                          key={category.fieldValue}
+                          className="categories__list-item"
+                        >
                           <Link
-                            to={`/categories/${kebabCase(category.fieldValue)}/`}
+                            to={`/categories/${kebabCase(
+                              category.fieldValue
+                            )}/`}
                             className="categories__list-item-link"
                           >
                             {category.fieldValue} ({category.totalCount})

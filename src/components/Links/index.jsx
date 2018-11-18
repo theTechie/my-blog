@@ -37,7 +37,9 @@ class Links extends React.Component {
           </li>
           <li className="links__list-item">
             <a
-              href={`https://www.researchgate.net/profile/${links.researchgate}`}
+              href={`https://www.researchgate.net/profile/${
+                links.researchgate
+              }`}
               target="_blank"
               rel="noopener noreferrer"
             >
