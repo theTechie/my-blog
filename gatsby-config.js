@@ -3,7 +3,7 @@ const pxtorem = require('postcss-pxtorem')
 
 module.exports = {
   siteMetadata: {
-    url: 'https://theTechie.netlify.com',
+    siteUrl: 'https://thetechie.in',
     title: "theTechie's",
     subtitle:
       'Javascript, ML, Graph Processing; Always learning something new; Frontend Engineer @projectplace.',
@@ -46,7 +46,7 @@ module.exports = {
           {
             site {
               siteMetadata {
-                site_url: url
+                siteUrl
                 title
                 description: subtitle
               }
@@ -60,8 +60,8 @@ module.exports = {
                 Object.assign({}, edge.node.frontmatter, {
                   description: edge.node.frontmatter.description,
                   date: edge.node.frontmatter.date,
-                  url: site.siteMetadata.site_url + edge.node.fields.slug,
-                  guid: site.siteMetadata.site_url + edge.node.fields.slug,
+                  url: site.siteMetadata.siteUrl + edge.node.fields.slug,
+                  guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
                   custom_elements: [{ 'content:encoded': edge.node.html }],
                 })
               ),
